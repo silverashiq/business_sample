@@ -1,0 +1,235 @@
+
+body {
+	font-family: 'Patrick Hand', cursive;
+}
+.top-nav li{
+	display: inline-block;
+	list-style: none;
+	padding: 0 10px;
+	text-align: right;
+}
+.nav-link {
+	color: black;
+}
+.circle{
+	font-size: 10px;
+	margin-top: 13px;
+}
+.nav-item:active{
+	background: red;
+}
+.btn-top {
+	background: #de2b24;
+	color: white;
+	border-width: 0;
+	border-radius: 5px;
+}
+header {
+	background: url(../img/bg.png);
+}
+.btn-header{
+	padding: 10px 20px;
+	background: #f8cd53;
+	margin-bottom: 120px;
+	border-radius: 5px 5px;
+	border-width: 0;
+	color: white;
+}
+.bottom-line{
+	border-bottom: 4px solid black;
+	width: 35px;
+	display: block;
+}
+.abt-content{
+	padding: 100px 0 50px;
+}
+.no-padding{
+	padding: 0;
+	margin: 0;
+}
+.img-box{
+	border: 1px solid black;
+	box-shadow: 1px 1px 10px 1px black;
+	margin-bottom: 20px;
+}
+.img{
+	position: relative;
+}
+.step-box {
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	border: 3px solid white;
+	border-radius: 10px 10px;
+	position: absolute;
+	text-align: center;
+    color: white;
+    font-weight: 600;
+    font-size: 30px;
+    top: 64px;
+    right: 0;
+}
+.img2 {
+	position: relative;
+	left: 42px;
+}
+.step-box2 {
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	border: 3px solid white;
+	border-radius: 10px 10px;
+	position: absolute;
+	text-align: center;
+    color: white;
+    font-weight: 600;
+    font-size: 30px;
+    top: 64px;
+    left: 0;
+}
+#ourwork {
+	background-color: #de2b24;
+	padding-bottom: 130px;
+}
+.bottom-line-wht {
+	border-bottom: 4px solid white;
+    width: 35px;
+    display: block;
+}
+.box{
+	width: 100%;
+	position: relative;
+}
+.box-content {
+	position: absolute;
+	top: 70px;
+	left: 40px;
+	font-size: 30px;
+}
+.box-img {
+	width: 100%;
+	height: 100%;
+}
+
+.down-arrow {
+	background: transparent;
+	font-size: 50px;
+    border-radius: 50%;
+    color: white;
+    border: 2px solid white;
+}
+
+.form-control {
+	width: 70%;
+	margin:5px auto;
+}
+.form-btn {
+	background: #de2b24;
+	border-width: 0;
+	border-radius: 5px 5px;
+	font-weight: 500;
+	color: white;
+	padding: 10px;
+	margin-top: 15px;
+}
+.parent{
+	position: relative;
+}
+.shape {
+	position: absolute;
+	  width: 0;
+      height: 0;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      border-bottom: 100px solid white;
+      top: -70px;
+    left: 288px;
+}
+.cross {
+	position: absolute;
+    font-size: 40px;
+    background: #de2b24;
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid white;
+    right: -25px;
+    top: -30px;
+    color: white;
+}
+#form-box{
+	display: none;
+}
+
+.icon-box2{
+	list-style: none;
+	padding-left: 0;
+}
+.icon-box2 li{
+	display: inline-block;
+	padding: 0 5px;
+	border:1px solid silver;
+	margin: 0 5px;
+	border-radius: 2px 2px;
+}
+.icon-box2 li a{
+	color: white;
+}
+.icon-box2 li:hover{
+	border:1px solid red;
+}
+.email-box{
+	width: 100%;
+	padding: 10px;
+	background: #515151;
+	margin-bottom: 15px;
+	border-width: 0;
+}
+.btn-sub{
+	padding: 5px 25px;
+	background: transparent;
+	color: white;
+	border:1px solid silver;
+	border-radius: 2px 2px;
+	margin-bottom: 20px;
+}
+footer{
+	background-color: #515151;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 0px) and (max-width: 576px){
+	.shape{
+		position: absolute;
+		left: 75px;
+		
+	}
+
+	#form-box {
+		margin: 0 auto;
+	}
+	.img{
+		margin: 0 auto;
+		display: block;
+	}
+	.img2{
+		margin: 0 auto;
+		display: block;
+	}
+    .box-content {
+    	font-size: 10px;
+    	position: absolute;
+    	left: 0;
+    	top: 0;
+    }
+}
